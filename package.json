@@ -1,11 +1,14 @@
 {
-  "name": "inception-basic",
+  "name": "food-deliver-app",
   "version": "1.0.0",
+  "homepage": "https://mehultech1995.github.io/Food-Delivery-App>",
   "description": "This is namaste react by Mehul yadav",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,12 +22,12 @@
   "bugs": {
     "url": "https://github.com/mehultech1995/React-tut/issues"
   },
-  "homepage": "https://github.com/mehultech1995/React-tut#readme",
   "devDependencies": {
     "@babel/core": "^7.22.15",
     "@babel/preset-env": "^7.22.15",
     "@testing-library/react": "^14.0.0",
     "babel-jest": "^29.6.4",
+    "gh-pages": "^6.0.0",
     "jest": "^29.6.4",
     "jest-environment-jsdom": "^29.6.4",
     "parcel": "^2.9.3",
@@ -43,4 +46,5 @@
     "Last 2 Chrome version",
     "Last 2 Firefox version"
   ]
+  
 }
