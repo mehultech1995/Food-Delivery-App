@@ -8,7 +8,7 @@
     "build": "parcel build index.html",
     "test": "jest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -46,5 +46,4 @@
     "Last 2 Chrome version",
     "Last 2 Firefox version"
   ]
-  
 }
