@@ -1,7 +1,7 @@
 # Namaste raect 
 
 # Parcel
-- Dev Build
+- Dev Build -
 - Local Server
 - HMR = Hot Module Replacement
 - Parcel using File watching Algorithm - written in C++

@@ -45,5 +45,6 @@
   "browserslist": [
     "Last 2 Chrome version",
     "Last 2 Firefox version"
-  ]
+  ],
+  "main": "App.js"
 }
