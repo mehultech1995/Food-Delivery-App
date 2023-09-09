@@ -1,7 +1,7 @@
 {
   "name": "food-deliver-app",
   "version": "1.0.0",
-  "homepage": "https://mehultech1995.github.io/Food-Delivery-App>",
+  "homepage": "https://mehultech1995.github.io/Food-Delivery-App",
   "description": "This is namaste react by Mehul yadav",
   "scripts": {
     "start": "parcel index.html",
@@ -45,6 +45,5 @@
   "browserslist": [
     "Last 2 Chrome version",
     "Last 2 Firefox version"
-  ],
-  "main": "App.js"
+  ]
 }
